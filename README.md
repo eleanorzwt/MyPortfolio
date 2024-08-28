@@ -39,7 +39,7 @@ These variables come from Sanity. To get them, you need to setup your own Sanity
 Run the command below in a terminal to create a new Sanity project:
 
 ```js
-npm create sanity@latest -- --template clean --create-project "John Doe" --dataset production
+npm create sanity@latest -- --template clean --create-project "portfolio-site" --dataset production
 ```
 
 - **Create an account**: If you already have a Sanity account, this will automatically connect to it, if not, select a login provider from the list of options, hit `Enter` and follow the prompt to create one.
@@ -49,7 +49,7 @@ npm create sanity@latest -- --template clean --create-project "John Doe" --datas
 Once completed open up the studio directory.
 
 ```js
-cd john-doe
+cd portfolio-site
 
 code .
 ```
